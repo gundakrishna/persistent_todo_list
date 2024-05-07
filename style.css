@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /*'Poppins', 'sans-serif';*/
+  box-sizing: border-box;
+}
+body{
+  background: #8DAE0B;
+  color: #fff;
+}
+
+h1{
+  text-align: center;
+  margin: 50px auto 50px;
+  font-weight: 600;
+}
+h2{
+  text-align: center;
+  margin: 50px auto 10px;
+  font-weight: 600;
+}
+div#add-items{
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  height: 80px;
+  background: #add411;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+div#add-items input {
+  flex: 1;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  padding: 0 30px;
+}
+
+div#add-items button{
+  padding: 0 40px;
+  height: 100%;
+  background: #000000;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  outline: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+
+::placeholder{
+  color: #fff;
+  font-size: 18px;
+}
+
+#items{
+  width: 80%;
+  margin: 60px auto 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+  align-items: center;
+}
+
+#items p{
+  display: inline-block;
+}
+
+#items div > button{
+  background-color: #000000;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 5px auto 5px;
+  cursor: pointer;
+  font-size: 18px;
+  float: right;
+}
+
